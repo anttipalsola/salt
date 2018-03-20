@@ -62,7 +62,7 @@ The ``it-admins`` configuration below returns the Pillar ``it-admins`` by:
   each user is a dictionary containing the configured string or list attributes,
   and the user dictionaries are combined to a list.
 
-  **Configuration:**
+**Configuration:**
 
 .. code-block:: yaml
 
@@ -86,7 +86,7 @@ The ``it-admins`` configuration below returns the Pillar ``it-admins`` by:
         lists:
             - memberOf
 
-  **Result:**
+**Result:**
 
 .. code-block:: yaml
 
@@ -122,7 +122,7 @@ The ``it-admins`` configuration below returns the Pillar ``it-admins`` by:
   as the key.
 
 
-  **Configuration:**
+**Configuration:**
 
 .. code-block:: yaml
 
@@ -147,7 +147,7 @@ The ``it-admins`` configuration below returns the Pillar ``it-admins`` by:
             - memberOf
 
 
-  **Result:**
+**Result:**
 
 .. code-block:: yaml
 
@@ -170,7 +170,7 @@ The ``it-admins`` configuration below returns the Pillar ``it-admins`` by:
                   - cn=team02,ou=groups,dc=company
 
 
-  **Configuration:**
+**Configuration:**
 
 .. code-block:: yaml
 
@@ -196,7 +196,7 @@ The ``it-admins`` configuration below returns the Pillar ``it-admins`` by:
             - memberOf
 
 
-  **Result:**
+**Result:**
 
 .. code-block:: yaml
 
